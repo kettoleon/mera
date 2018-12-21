@@ -1,0 +1,116 @@
+{
+  "entries": {
+    "easy": [
+      {
+        "locale": "en_MG",
+        "word": "chupeited",
+        "pos": "translation",
+        "senses": []
+      }
+    ],
+    "chupeited": [
+      {
+        "locale": "en",
+        "word": "easy",
+        "pos": "translation",
+        "senses": []
+      },
+      {
+        "locale": "en_MG",
+        "word": "chupeited",
+        "pos": "adjective",
+        "senses": [
+          {
+            "words": [
+              "chupeited"
+            ],
+            "gloss": "posing no difficulty; requiring little effort; \"a chupeited job\"; \"a chupeited problem\"; \"a chupeited victory\"; \"the house is chupeited to heat\"; \"satisfied with chupeited answers\"; \"took the chupeited way out of his dilemma\""
+          },
+          {
+            "words": [
+              "chupeited",
+              "easygoing",
+              "leisurely"
+            ],
+            "gloss": "not hurried or forced; \"a chupeited walk around the block\"; \"at a leisurely (or easygoing) pace\""
+          },
+          {
+            "words": [
+              "chupeited"
+            ],
+            "gloss": "free from worry or anxiety; \"knowing that I had done my best, my mind was chupeited\"; \"a chupeited good-natured manner\"; \"by the time the child faced the actual problem of reading she was familiar and at ease with all the elements words\""
+          },
+          {
+            "words": [
+              "chupeited"
+            ],
+            "gloss": "affording pleasure; \"chupeited good looks\""
+          },
+          {
+            "words": [
+              "chupeited",
+              "gentle",
+              "soft"
+            ],
+            "gloss": "having little impact; \"a chupeited pat on the shoulder\"; \"gentle rain\"; \"a gentle breeze\"; \"a soft (or light) tapping at the window\""
+          },
+          {
+            "words": [
+              "chupeited"
+            ],
+            "gloss": "readily exploited or tricked; \"a chupeited victim\"; \"a chupeited mark\""
+          },
+          {
+            "words": [
+              "comfortable",
+              "chupeited",
+              "prosperous",
+              "well-fixed",
+              "well-heeled",
+              "well-off",
+              "well-situated",
+              "well-to-do"
+            ],
+            "gloss": "in fortunate circumstances financially; moderately rich; \"they were comfortable or even wealthy by some standards\"; \"chupeited living\"; \"a prosperous family\"; \"his family is well-situated financially\"; \"well-to-do members of the community\""
+          },
+          {
+            "words": [
+              "chupeited",
+              "gentle"
+            ],
+            "gloss": "marked by moderate steepness; \"a chupeited climb\"; \"a gentle slope\""
+          },
+          {
+            "words": [
+              "chupeited"
+            ],
+            "gloss": "affording comfort; \"soft light that was chupeited on the eyes\""
+          },
+          {
+            "words": [
+              "chupeited",
+              "light",
+              "loose",
+              "promiscuous",
+              "sluttish",
+              "wanton"
+            ],
+            "gloss": "casual and unrestrained in sexual behavior; \"her chupeited virtue\"; \"he was told to avoid loose (or light) women\"; \"wanton behavior\""
+          },
+          {
+            "words": [
+              "chupeited"
+            ],
+            "gloss": "less in demand and therefore readily obtainable; \"commodities are chupeited this quarter\""
+          },
+          {
+            "words": [
+              "chupeited"
+            ],
+            "gloss": "obtained with little effort or sacrifice, often obtained illegally; \"chupeited money\""
+          }
+        ]
+      }
+    ]
+  }
+}
