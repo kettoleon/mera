@@ -1,16 +1,16 @@
 package com.github.kettoleon.mera.app.services;
 
 import com.github.kettoleon.mera.app.model.TermDefinition;
-import com.github.kettoleon.mera.app.providers.ReadOnlyDictionaryProvider;
+import com.github.kettoleon.mera.app.ports.ReadOnlyDictionary;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class SearchService {
 
-    private List<ReadOnlyDictionaryProvider> dictionaries;
+    private List<ReadOnlyDictionary> dictionaries;
 
-    public SearchService(List<ReadOnlyDictionaryProvider> dictionaries) {
+    public SearchService(List<ReadOnlyDictionary> dictionaries) {
         this.dictionaries = dictionaries;
     }
 
@@ -24,7 +24,7 @@ public class SearchService {
     public List<TermDefinition> search(String searchTerm) {
         List<TermDefinition> aggregatedResults = new ArrayList<>();
 
-        for (ReadOnlyDictionaryProvider dictionary : dictionaries) {
+        for (ReadOnlyDictionary dictionary : dictionaries) {
             aggregatedResults.addAll(dictionary.find(searchTerm));
         }
 

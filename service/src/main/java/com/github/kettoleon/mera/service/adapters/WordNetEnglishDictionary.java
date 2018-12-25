@@ -1,4 +1,4 @@
-package com.github.kettoleon.mera.service.config;
+package com.github.kettoleon.mera.service.adapters;
 
 import com.github.kettoleon.mera.app.model.Sense;
 import com.github.kettoleon.mera.app.model.TermDefinition;
@@ -13,7 +13,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Locale;
 
-class EnglishDictionaryProvider implements com.github.kettoleon.mera.app.providers.EnglishDictionaryProvider {
+public class WordNetEnglishDictionary implements com.github.kettoleon.mera.app.ports.EnglishDictionary {
     public List<TermDefinition> find(String searchTerm) {
         List<TermDefinition> results = new ArrayList<>();
         try {

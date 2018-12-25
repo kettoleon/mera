@@ -1,22 +1,22 @@
-package com.github.kettoleon.mera.service.config;
+package com.github.kettoleon.mera.service.adapters;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.kettoleon.mera.app.model.TermDefinition;
-import com.github.kettoleon.mera.app.providers.ReadWriteDictionaryProvider;
+import com.github.kettoleon.mera.app.ports.ReadWriteDictionary;
 import com.github.kettoleon.mera.service.model.DictionaryFormat;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
-class MagicEnglishDictionaryProvider implements ReadWriteDictionaryProvider {
+public class MagicEnglishDictionary implements ReadWriteDictionary {
 
     private static final Locale EN_MG = new Locale("en", "mg");
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
     private Map<String, List<TermDefinition>> entries = new HashMap<>();
 
-    public MagicEnglishDictionaryProvider() {
+    public MagicEnglishDictionary() {
 
         File dct_file = new File("en_mg.dct.json");
 
